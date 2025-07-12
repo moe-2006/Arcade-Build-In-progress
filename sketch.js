@@ -102,9 +102,9 @@ function handleError(event){
 function preload(){
   backgroundImg = loadImage("assets/background.png")  // Load background image
   musicPlay = loadSound("assets/background_music.mp3")  // Load background music
-  mapImage = loadImage("/assets/Game_map.jpg")  // Load map image
-  img = loadImage("/assets/car.png", handleImage, handleError)  // Load car image
-  arial = loadFont("/assets/ARIAL.TTF")  // Load font
+  mapImage = loadImage("assets/Game_map.jpg")  // Load map image
+  img = loadImage("assets/car.png", handleImage, handleError)  // Load car image
+  arial = loadFont("assets/ARIAL.TTF")  // Load font
   leaderboardTitle = loadImage("assets/leaderboard.png")  // Load leaderboard title image
 
   player = new Taxi()  // Create player instance
